@@ -1,0 +1,1 @@
+select * from {{ source('demo', 'bike_trips') }} limit 10
